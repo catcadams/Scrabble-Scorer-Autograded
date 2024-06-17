@@ -79,7 +79,7 @@ let simpleScorer = (word) => {
 };
 
 let vowelBonusScorer = (word) => {
-  const vowels = ["a", "e", "i", "o", "u", "y"];
+  const vowels = ["a", "e", "i", "o", "u"];
   const userWord = word.toLowerCase().split("");
   const userVowels = [];
   for (let index = 0; index < userWord.length; index++) {
